@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F9F0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plants needing check-up"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2D6A2D"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvNoAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All plants are up to date! No check-ups needed."
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

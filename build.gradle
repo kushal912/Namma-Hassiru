@@ -1,0 +1,7 @@
+// Top-level build file
+// don't add dependencies here, put them in the module build.gradle
+
+plugins {
+    id 'com.android.application' version '8.2.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+}

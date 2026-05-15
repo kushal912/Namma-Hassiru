@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NammaHasiru" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2D6A2D</item>
+        <item name="colorPrimaryVariant">#1E4D1E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#A8D5A2</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">#2D6A2D</item>
+    </style>
+</resources>
